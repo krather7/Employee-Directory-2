@@ -1,0 +1,32 @@
+
+/* Show pointer to indicate column header is clickable */
+thead th span{
+    cursor: pointer;
+}
+
+/* Following classes allows for table to be scrollable */
+tbody {
+    color:rgb(177, 177, 177);
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 65vh;
+    background-color: #3d3d3d;
+}
+
+a {
+    color:rgb(177, 177, 177);
+}
+
+thead,
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    color:rgb(177, 177, 177);
+}
+
+.email {
+    overflow-x: auto;
+}
